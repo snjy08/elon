@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    background-color: black;
+}
+nav{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+display: flex;
+margin: 30px;
+justify-content: center;
+text-decoration: none;
+color: aliceblue;
+}
+nav ul li a:hover{
+    color: navy;
+}
+.overlay{
+position: absolute;
+right: 10%;
+top: 250px;
+}
+.inneroverlay{
+    z-index: -1;
+    color: crimson;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inninneroverlay{
+    z-index: -1;
+    color: crimson;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+h3{
+    margin: 20px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+}
+.wikipedia{
+    color: aliceblue;
+}
+.pic{
+    display: flex;
+    height: 250px;
+}
+.pic img{
+    text-align: justify;
+    display: flex;
+}
+h3{
+    margin: 100px;
+}
+.wikipedia1{
+    color: aliceblue;
+    text-align:justify;
+    display: flex;
+}
+.gallery{
+    display: flex;
+}
+.wikipedia2{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+}
+.gallery1{
+    display: flex;
+}
+.wikipedia3{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+}
+.gallery2{
+    display: flex;
+}
+.awards{
+    position: absolute;
+    right: 20%;
+    top:3250px;
+}
+h1{
+    color: white;
+}
+.a{
+    text-align: center;
+}
